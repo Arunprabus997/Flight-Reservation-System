@@ -1,5 +1,4 @@
 package com.FRS;
-
 public class Ticket {
     String pnr;
     String from;
@@ -10,6 +9,7 @@ public class Ticket {
     int seatNo;
     float price;
     boolean cancelled;
+    Flight flight;
 
     void checkStatus() {
         if (cancelled== true) {
@@ -18,15 +18,10 @@ public class Ticket {
             System.out.println("Ticked is Confirmed");
         }
     }
-
     int durationOfJourney() {
         return duration;
     }
-
     void cancelTicket() {
         this.cancelled = true;
     }
-
 }
-
-

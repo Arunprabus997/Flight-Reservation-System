@@ -1,6 +1,6 @@
 package com.FRS;
 
-public class Contact {
+/*public class Contact {
     String name;
     String phone;
     String emailId;
@@ -12,7 +12,6 @@ public class Contact {
         this.phone= phone;
         this.emailId=emailId;
     }
-
     public Contact(String name, String phone, String emailId) {
         this.name = name;
         this.phone = phone;
@@ -23,4 +22,4 @@ public class Contact {
         this.phone = contact.phone;
         this.emailId = contact.emailId;
     }
-}
+}*/
