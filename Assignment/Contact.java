@@ -1,6 +1,6 @@
-package com.FRS;
+/*package com.FRS;
 
-/*public class Contact {
+  public class Contact {
     String name;
     String phone;
     String emailId;

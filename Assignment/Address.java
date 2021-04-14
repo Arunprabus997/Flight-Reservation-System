@@ -1,6 +1,6 @@
-package com.FRS;
+/*package com.FRS;
 
-/*public class Address {
+public class Address {
     String street;
     String city;
     String state;
